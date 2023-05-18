@@ -5,8 +5,8 @@ from datetime import datetime
 from src.variables import StatementInfo, Transaction
 
 #load Json file        
-def load_json():
-    with open('src/bank_statement_sample.json', 'r') as f:
+def load_json(path):
+    with open(path, 'r') as f:
       json_data = json.load(f)
     json_content = json_data["content"]
     return json_content
@@ -26,15 +26,18 @@ def convert_date_mt(date):
     date_format = datetime.strptime(date, "%d-%b-%Y").isoformat()
     return date_format
 
+
 # Convert string to float
-def string_float(str):
-    float_str = float(str.replace(',',''))
+def string_float(floatstr):
+    float_str = float(floatstr.replace(',',''))
     return float_str
 
 # Extracting Information from Json content
 def extract_details():
     
-    json_content = load_json()
+    path_to_json = 'src/bank_statement_sample.json'
+
+    json_content = load_json(path_to_json)
     
     statementInfo = StatementInfo()
     
@@ -73,17 +76,17 @@ def extract_details():
 
     # Extracting Transaction details 
     for transaction_detail in transaction_details[1:]:
-        transact_d = Transaction()
+        transaction = Transaction()
 
-        transact_d.transactionDate = convert_date_mt(transaction_detail[0])
-        transact_d.narration = transaction_detail[1]
+        transaction.transactionDate = convert_date_mt(transaction_detail[0])
+        transaction.narration = transaction_detail[1]
 
         amount_balance = transaction_detail[3].split()
         amount = string_float(amount_balance[0])
         balance = string_float(amount_balance[1])
 
-        transact_d.amount = amount
-        transact_d.balance = balance
+        transaction.amount = amount
+        transaction.balance = balance
 
         if balance < currentBalance:
             transaction_type = "Debit"
@@ -94,8 +97,8 @@ def extract_details():
             currentBalance = balance
             totalCredit += amount
 
-        transact_d.type = transaction_type
-        transactionList.append(transact_d)
+        transaction.type = transaction_type
+        transactionList.append(transaction)
 
     statementInfo.closingBalance = currentBalance
     statementInfo.totalCredit = totalCredit
