@@ -1,0 +1,34 @@
+{
+    "customerName": " ",
+    "accountNumber": " ",
+    "currency": " ",
+    "periodStart": " ",
+    "periodEnd": " ",
+    "openingBalance": 0.0,
+    "closingBalance": 0.0,
+    "totalDebit": 0.0,
+    "totalCredit": 0.0,
+    "transactions": [
+        {
+            "transactionDate": "2022-08-27T00:00:00",
+            "narration": "JD-TRANSFER TO ACCOUNT I- COMMISSION MINERALS GUY 3020511778-0",
+            "amount": 280000.0,
+            "balance": 1959716.0,
+            "type": "debit"
+        },
+        {
+            "transactionDate": " ",
+            "narration": " ",
+            "amount": 0.0,
+            "balance": 0.0,
+            "type": " "
+        },
+        {
+            "transactionDate": " ",
+            "narration": " ",
+            "amount": 0.0,
+            "balance": 0.0,
+            "type": " "
+        }
+    ]
+}

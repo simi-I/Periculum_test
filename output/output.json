@@ -1,0 +1,209 @@
+{
+    "customerName": "ARBITRARY NAME",
+    "accountNumber": "3189014610-0",
+    "currency": "NGN",
+    "periodStart": "2017-04-01T00:00:00",
+    "periodEnd": "2018-04-29T00:00:00",
+    "openingBalance": 1698671.3,
+    "closingBalance": 1885923.3,
+    "totalCredit": 755065.0,
+    "totalDebit": 567813.0,
+    "transactions": [
+        {
+            "transactionDate": "2017-04-03T00:00:00",
+            "narration": "Atm Withdrawal @10571001-Zib Ogudu Branch       U ",
+            "amount": 20000.0,
+            "balance": 1678671.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-03T00:00:00",
+            "narration": "Atm Withdrawal @10571001-Zib Ogudu Branch       U ",
+            "amount": 20000.0,
+            "balance": 1658671.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-03T00:00:00",
+            "narration": "Atm Withdrawal @10571003-Ogudu Branch Atm3      U ",
+            "amount": 20000.0,
+            "balance": 1638671.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-03T00:00:00",
+            "narration": "Atm Withdrawal Rev @10571001-Zib Ogudu Branch ",
+            "amount": 20000.0,
+            "balance": 1658671.3,
+            "type": "Credit"
+        },
+        {
+            "transactionDate": "2017-04-03T00:00:00",
+            "narration": "Atm Withdrawal @10501013-Ebn000000001011 Ebn Og O",
+            "amount": 20000.0,
+            "balance": 1638671.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-04T00:00:00",
+            "narration": "Cob Transfer To Okanlawan  **6996 Cement Fbn ",
+            "amount": 400000.0,
+            "balance": 1238671.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-04T00:00:00",
+            "narration": "Cob Transfer To Okanlawan  **6996 Cement Fbn ",
+            "amount": 100.0,
+            "balance": 1238571.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-04T00:00:00",
+            "narration": "Cob Transfer To Okanlawan  **6996 Cement Fbn ",
+            "amount": 5.0,
+            "balance": 1238566.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-04T00:00:00",
+            "narration": "Sms Alert Charges 27-31mar 17 ",
+            "amount": 24.0,
+            "balance": 1238542.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Atm Withdrawal @1050c029-Ebn00000000c027 Eng La L",
+            "amount": 20000.0,
+            "balance": 1218542.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Atm Withdrawal @1050c029-Ebn00000000c027 Eng La L",
+            "amount": 65.0,
+            "balance": 1218477.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Atm Withdrawal Rev @1050c029-Ebn00000000c027 Eng",
+            "amount": 65.0,
+            "balance": 1218542.3,
+            "type": "Credit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Atm Withdrawal Rev @1050c029-Ebn00000000c027 Eng",
+            "amount": 20000.0,
+            "balance": 1238542.3,
+            "type": "Credit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Atm Withdrawal @10331178-1033117804734 Shoprite I ",
+            "amount": 10000.0,
+            "balance": 1228542.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Atm Withdrawal @10331178-1033117804734 Shoprite I ",
+            "amount": 65.0,
+            "balance": 1228477.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Atm Withdrawal @10331178-1033117804734 Shoprite I ",
+            "amount": 65.0,
+            "balance": 1228412.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Atm Withdrawal @10331178-1033117804734 Shoprite I ",
+            "amount": 10000.0,
+            "balance": 1218412.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Cob Transfer To Omoregie J **2114 From Frank Abn ",
+            "amount": 7000.0,
+            "balance": 1211412.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Cob Transfer To Omoregie J **2114 From Frank Abn ",
+            "amount": 100.0,
+            "balance": 1211312.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-05T00:00:00",
+            "narration": "Cob Transfer To Omoregie J **2114 From Frank Abn ",
+            "amount": 5.0,
+            "balance": 1211307.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-10T00:00:00",
+            "narration": "Sms Alert Charges 01-07apr 17 ",
+            "amount": 204.0,
+            "balance": 1211103.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-11T00:00:00",
+            "narration": "Atm Withdrawal @10503502-Ebn000000003501 Eng La L",
+            "amount": 20000.0,
+            "balance": 1191103.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-11T00:00:00",
+            "narration": "Atm Withdrawal @10503502-Ebn000000003501 Eng La L",
+            "amount": 65.0,
+            "balance": 1191038.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-11T00:00:00",
+            "narration": "Atm Withdrawal @10503502-Ebn000000003501 Eng La L",
+            "amount": 20000.0,
+            "balance": 1171038.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-11T00:00:00",
+            "narration": "Atm Withdrawal @10503502-Ebn000000003501 Eng La L",
+            "amount": 65.0,
+            "balance": 1170973.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-12T00:00:00",
+            "narration": "Transfer From Passmark Comms Ltd ",
+            "amount": 315000.0,
+            "balance": 1485973.3,
+            "type": "Credit"
+        },
+        {
+            "transactionDate": "2017-04-12T00:00:00",
+            "narration": "Cbn Stamp Duty Charge - S1367771 ",
+            "amount": 50.0,
+            "balance": 1485923.3,
+            "type": "Debit"
+        },
+        {
+            "transactionDate": "2017-04-13T00:00:00",
+            "narration": "Transfer From Anthony Omoregie ",
+            "amount": 400000.0,
+            "balance": 1885923.3,
+            "type": "Credit"
+        }
+    ]
+}
