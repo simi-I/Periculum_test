@@ -2,7 +2,7 @@
 import json
 import re
 from datetime import datetime
-from src.variables import *
+from src.variables import StatementInfo, Transaction
 
 #load Json file        
 def load_json():
@@ -100,7 +100,7 @@ def extract_details():
     statementInfo.closingBalance = currentBalance
     statementInfo.totalCredit = totalCredit
     statementInfo.totalDebit = totalDebit
-    
+
     statementInfo.transactions = [obj.__dict__ for obj in transactionList]
 
     # writing output to json file
